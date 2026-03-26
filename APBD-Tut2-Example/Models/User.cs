@@ -18,5 +18,5 @@ public class Student(string fName, string LName) : User(fName, LName)
 
 public class Teacher(string fName, string LName) :  User(fName, LName)
 {
-    public override int GetMaxReservations() => 3;
+    public override int GetMaxReservations() => 5;
 }
